@@ -29,7 +29,7 @@ import java.util.Locale;
 @Configuration
 @EnableWebMvc
 @ComponentScan(basePackages = "cc.ryanc.halo.web.controller")
-@PropertySource(value = "classpath:application.yaml", ignoreResourceNotFound = true, encoding = "UTF-8")
+@PropertySource(value = "classpath:application.yml", ignoreResourceNotFound = true, encoding = "UTF-8")
 public class WebMvcAutoConfiguration implements WebMvcConfigurer {
 
     @Autowired

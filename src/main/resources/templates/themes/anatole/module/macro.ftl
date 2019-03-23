@@ -16,8 +16,9 @@
     <meta name="description" content="${description!}" />
     <@verification></@verification>
     <@favicon></@favicon>
-    <link href="/anatole/source/css/font-awesome.min.css" type="text/css" rel="stylesheet"/>
-    <link rel="stylesheet" href="/anatole/source/css/blog_basic.min.css?version=88107691fe">
+    <#--<link href="/anatole/source/css/font-awesome.min.css" type="text/css" rel="stylesheet"/>-->
+    <link href="https://cdn.bootcss.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="/anatole/source/css/blog_basic.min.css">
     <link href="/anatole/source/css/style.min.css" type="text/css" rel="stylesheet" />
     <link rel="alternate" type="application/rss+xml" title="atom 1.0" href="/feed.xml">
     <style>
@@ -48,7 +49,8 @@
 <body>
 </#macro>
 <#macro footer>
-<script type="text/javascript" src="/anatole/source/js/jquery.min.js"></script>
+<script src="https://cdn.bootcss.com/jquery/2.0.0/jquery.js"></script>
+<#--<script type="text/javascript" src="/anatole/source/js/jquery.min.js"></script>-->
 <script type="text/javascript">
     var url = location.href;
     var urlstatus = false;

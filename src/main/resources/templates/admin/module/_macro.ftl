@@ -39,7 +39,7 @@
 </#macro>
 
 <#macro footer>
-<#include "_footer.ftl">
+<#--<#include "_footer.ftl">-->
 </div>
 
 <#-- JS -->

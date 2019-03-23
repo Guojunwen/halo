@@ -20,11 +20,9 @@
             <#-- 虽然Halo使用了宽松的GPL协议，但开发不易，希望您可以保留一下版权声明。笔芯~ -->
             <div class="by_halo">
                 <a href="https://github.com/ruibaby/halo" target="_blank">Proudly published with Halo&#65281;</a></br>
-                <a href="#" >©2019 过俊文</a></br>
-                <a href="http://www.miitbeian.gov.cn/" target="_blank">苏ICP备19011166号</a>
             </div>
             <div class="footer_text">
-                <@footer_info>2019 过俊文</@footer_info>
+                <@footer_info></@footer_info>
             </div>
         </a>
     </div>
